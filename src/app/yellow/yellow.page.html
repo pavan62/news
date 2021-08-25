@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Yellow Tea</ion-title>
+    <ion-buttons slot="start">
+      <ion-button icon-only (click)="previous()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button icon-only (click)="next()">
+        <ion-icon name="arrow-forward"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" color="secondary">
+  <img class="tea-image" src="assets/img/yellow.jpg" />
+  <div class="description">
+    A rare tea from China, yellow tea goes through a similar shortened oxidation
+    process like green teas. Yellow teas, however, do not have the grassy flavor
+    that green teas tend to have. The leaves often resemble the shoots of white
+    teas, but are slightly oxidized.
+  </div>
+</ion-content>

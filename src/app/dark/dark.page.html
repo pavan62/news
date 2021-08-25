@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Dark Tea</ion-title>
+    <ion-buttons slot="start">
+      <ion-button icon-only (click)="previous()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button icon-only (click)="next()">
+        <ion-icon name="arrow-forward"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" color="secondary">
+  <img class="tea-image" src="assets/img/dark.jpg" />
+  <div class="description">
+    From the Hunan and Sichuan provinces of China, dark teas are flavorful aged
+    probiotic teas that steeps up very smooth with slightly sweet notes.
+  </div>
+</ion-content>

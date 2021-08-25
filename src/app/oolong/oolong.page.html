@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Oolong Tea</ion-title>
+    <ion-buttons slot="start">
+      <ion-button icon-only (click)="previous()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button icon-only (click)="next()">
+        <ion-icon name="arrow-forward"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" color="secondary">
+  <img class="tea-image" src="assets/img/oolong.jpg" />
+  <div class="description">
+    Oolong teas are partially oxidized, giving them a flavor that is not as
+    robust as black teas but also not as suble as green teas. Oolong teas often
+    have a flowery fragrance.
+  </div>
+</ion-content>

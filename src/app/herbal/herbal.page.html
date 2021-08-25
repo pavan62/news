@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Herbal Infusions</ion-title>
+    <ion-buttons slot="start">
+      <ion-button icon-only (click)="previous()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button icon-only (click)="next()">
+        <ion-icon name="arrow-forward"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding" color="secondary">
+  <img class="tea-image" src="assets/img/herbal.jpg" />
+  <div class="description">
+    Herbal infusions are not actually "tea" but are more accurately
+    characterized as infused beverages consisting of various dried herbs,
+    spices, and fruits.
+  </div>
+</ion-content>

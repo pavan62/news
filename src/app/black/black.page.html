@@ -1,0 +1,25 @@
+<ion-content style="padding-bottom: 0%">
+  <br />
+  <ion-progress-bar
+    *ngIf="loading === true"
+    type="indeterminate"
+  ></ion-progress-bar>
+  <ion-card
+    *ngFor="let item of getKeys(thumbs)"
+    (click)="movedodisplay(thumbs.get(item))"
+  >
+    <ion-card-content style="text-align: center; padding-top: 10px">
+      <img height="200" width="300" src="{{thumbs.get(item).img[0].url}}" />
+      <ion-card-header style="text-align: left">
+        <ion-card-title style="text-align: left">
+          {{thumbs.get(item).title}}
+        </ion-card-title>
+        {{thumbs.get(item).date}}
+      </ion-card-header>
+      <!-- <div img="thumbs.get(item).img[0].url"></div> -->
+    </ion-card-content>
+  </ion-card>
+  <ion-button *ngIf="loaded === true" (click)="next()" color="tertiary"
+    >More posts</ion-button
+  >
+</ion-content>

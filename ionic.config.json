@@ -1,0 +1,7 @@
+{
+  "name": "cs-demo-deeplink-mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

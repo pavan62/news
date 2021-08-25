@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-menu-toggle>
+        <ion-button>
+          <ion-icon slot="icon-only" name="menu"></ion-icon>
+        </ion-button>
+      </ion-menu-toggle>
+    </ion-buttons>
+    <ion-title start>Namma Karavali</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="more"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-menu side="start" contentId="menuContent">
+  <ion-header class="ion-no-border">
+    <ion-toolbar>
+      <ion-title
+        ><img
+          height="150"
+          style="padding-left: 50px"
+          src="data:image/png;base64,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"
+          class="logo-size"
+          alt="logo"
+      /></ion-title>
+      <ion-tittle style="padding-left: 90px"> Namma karavali</ion-tittle>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list style="padding-left: 20px">
+      <ion-item lines="none">Menu Item</ion-item>
+      <ion-item lines="none">Menu Item</ion-item>
+      <ion-item lines="none">Menu Item</ion-item>
+      <ion-item lines="none">Menu Item</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+<ion-content>
+  <ion-toolbar color="tertiary">
+    <ion-segment scrollable value="home">
+      <ion-segment-button value="home" routerLink="posts">
+        <ion-lable>Home</ion-lable>
+      </ion-segment-button>
+      <ion-segment-button value="heart" routerLink="tab2">
+        <ion-lable>Sports</ion-lable>
+      </ion-segment-button>
+      <ion-segment-button value="pin" routerLink="display">
+        <ion-lable>Education</ion-lable>
+      </ion-segment-button>
+      <ion-segment-button value="star" routerLink="inf">
+        <ion-lable>Politics</ion-lable>
+      </ion-segment-button>
+      <ion-segment-button value="call">
+        <ion-lable>Entertainment</ion-lable>
+      </ion-segment-button>
+      <ion-segment-button value="globe">
+        <ion-lable>Technology</ion-lable>
+      </ion-segment-button>
+      <ion-segment-button value="basket">
+        <ion-lable>Life Style</ion-lable>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-content>
+
+<ion-router-outlet id="menuContent"></ion-router-outlet>
